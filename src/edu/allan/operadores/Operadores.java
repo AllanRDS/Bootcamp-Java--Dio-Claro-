@@ -31,6 +31,24 @@ public class Operadores {
     numero /= numero; // Mesma coisa que número = numero / numero
     numero *= 5; // Mesma coisa que número = numero * 5
 
+    //Operador Ternário
+    //Um if simplificado e resumido
+    int a = 2;
+    int b = 3;
+    String resultado = a==b ? "Verdadeiro" : "Falso";
+    System.out.println(resultado);
+
+    //Operadores Relacionais
+
+    // a > b = a maior que b
+    // a < b = a menor que b
+    // a >= b = a maior igual a b
+    // a <= b = a menor igual a b
+    // a == b = a igual a b
+    // a != b = a diferente de b
+
+    boolean simNão = a < b;
+    System.out.println("A variável a é menor que b : " + simNão);
 
   }
 }
