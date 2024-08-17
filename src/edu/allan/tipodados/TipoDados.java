@@ -14,6 +14,9 @@ public class TipoDados {
 
 		String nomeFinal = meuNome.concat(" ").concat(sobrenome);
 
+		String nomeCompleto = "Pedro" + "Reymond";
+
 		System.out.println(nomeFinal);
+		System.out.println(nomeCompleto);
 	}
 }
