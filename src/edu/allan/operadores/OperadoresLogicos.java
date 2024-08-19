@@ -1,6 +1,6 @@
 package edu.allan.operadores;
-public class OperadoresLogicos {
-
+public class OperadoresLogicos 
+{
   public static void main(String[] args) 
   {
     int a = 2;

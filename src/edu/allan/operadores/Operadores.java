@@ -1,7 +1,9 @@
 package edu.allan.operadores;
 
-public class Operadores {
-  public static void main(String[] args) {
+public class Operadores 
+{
+  public static void main(String[] args) 
+  {
     // Operadores de Atribuição
     // = igualdade
     String nome = "AllanRDS";
@@ -37,6 +39,7 @@ public class Operadores {
     int b = 3;
     String resultado = a==b ? "Verdadeiro" : "Falso";
     System.out.println(resultado);
+
 
     //Operadores Relacionais
 
